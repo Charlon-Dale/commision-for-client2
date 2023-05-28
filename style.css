@@ -1,0 +1,58 @@
+body {
+    color: white;
+    background-color: aquamarine;
+    background-image: url("../pictures/bg-image.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-blend-mode:color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.jonaxxbooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book {
+    width: 220px;
+    margin: 20px;
+    padding: 10px;
+}
+.book img {    
+    border-radius: 10px;
+}
+.book h2 {
+    font-size: 24px;
+    margin: 10px 0px 5px 0px;
+    text-align: center;
+}
+h1, h2{
+    margin-left: 20px;
+    color: black;
+}
+
+.static, .relative {
+    width: 100%;
+    height: auto;
+}
+
+.absolute, .fixed {
+    width: 250px;
+    height: auto;
+    bottom:160px;
+}
+.static {
+    position:static;
+}
+.relative {
+    position:relative;
+}
+.absolute {
+    position:absolute;
+}
+.fixed {
+    position:fixed;
+}
